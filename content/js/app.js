@@ -71,14 +71,17 @@ $(document).ready(function () {
       container: window,
       direction: 'vertical',
       doIn: function() {
-        $('.negocios').addClass("fadeInLeft");
+        $('.homeCinema').addClass("fadeInLeft");
 
-        $('.negocios').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-            $('.software').show().addClass('fadeInLeft');
+        $('.homeCinema').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $('.homeTheater').show().addClass('fadeInLeft');
         });        
 
-        $('.software').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-            $('.operacao').show().addClass('fadeInLeft');
+        $('.homeTheater').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $('.projecao').show().addClass('fadeInLeft');
+        });
+        $('.projecao').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $('.MultiRoom').show().addClass('fadeInLeft');
         });
       },
       doOut: function() {
@@ -156,17 +159,17 @@ $(document).ready(function () {
       $('.parceiros__logos').css('opacity', '1');
     }
 
-    //navegar em numeros
-    $('#capitalMovimentado').circliful({
+    //smartTech em numeros
+    $('#areaAutomatizada').circliful({
       foregroundColor: '#c1c0c1',
       foregroundBorderWidth: '10',
       backgroundColor: '#696969', 
       backgroundBorderWidth: '10',   
-      text: 'CAPITAL MOVIMENTADO P/ <tspan y="205" x="97">STARTUPS ATENDIDAS</tspan>',
+      text: 'ÁREA EM M² de<tspan y="205" x="97">RESIDÊNCIAS AUTOMATIZADAS</tspan>',
       textBelow: true,
       textColor: '#FFF',
       textStyle: 'font-size: 12px; font-weight: bold;',
-      replacePercentageByText: 'R$ 1 mi',
+      replacePercentageByText: '20.000m²',
       noPercentageSign: true,      
       fontColor: '#fff',      
       animateInView: true,
@@ -182,7 +185,7 @@ $(document).ready(function () {
       textBelow: true,
       textColor: '#FFF',
       textStyle: 'font-size: 12px; font-weight: bold;',
-      replacePercentageByText: '86',
+      replacePercentageByText: '38',
       noPercentageSign: true,      
       fontColor: '#fff',
       animateInView: true,
@@ -198,23 +201,23 @@ $(document).ready(function () {
       textBelow: true,
       textColor: '#FFF',
       textStyle: 'font-size: 12px; font-weight: bold;',
-      replacePercentageByText: '32.000',
+      replacePercentageByText: '9.530',
       noPercentageSign: true,      
       fontColor: '#fff',
       animateInView: true,
       percent: 60,
     });
 
-    $('#startupsAtendidas').circliful({
+    $('#horasEconomizadas').circliful({
       foregroundColor: '#c1c0c1',
       foregroundBorderWidth: '10',
       backgroundColor: '#696969', 
       backgroundBorderWidth: '10',       
-      text: 'STARTUPS ATENDIDAS <tspan y="205" x="97">EM 2016</tspan>',
+      text: 'HORAS ECONOMIZADAS <tspan y="205" x="97">COM PROCESSOS AUTOMATIZADOS</tspan>',
       textBelow: true,
       textColor: '#FFF',
       textStyle: 'font-size: 12px; font-weight: bold;',
-      replacePercentageByText: '2.658',
+      replacePercentageByText: '12.658',
       noPercentageSign: true,      
       fontColor: '#fff',
       animateInView: true,
@@ -279,3 +282,4 @@ $('.scrollup').click(function () {
     }, 600);
     return false;
 });
+

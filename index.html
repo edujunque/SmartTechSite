@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt">
     <head>
-        <title>NavegarTI - Startups</title>
+        <title>SmartTech - Automação</title>
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta name="description" content="Uma empresa jovem, com pegada de negócio, engajada, desenvolvendo soluções de forma criativa usando diferentes tecnologias.">
-        <meta name="keywords" content="navegar, startups" />
-        <meta name="author" content="NavegarTI">
+        <meta name="description" content="Uma empresa criativa desenvolvendo soluções para seu dia-a-dia, com uma equipe de consultores, técnicos e engenheiros mais que capacitados, engajados.">
+        <meta name="keywords" content="smart-tech, automação" />
+        <meta name="author" content="SmartTech">
         <meta name="robots" content="index, follow">
         <meta http-equiv="cache-control" content="Public" />
 
         <!-- facebook meta -->
         <meta property="og:locale" content="pt_BR">
-        <meta property="og:title" content="NavegarTI - Startups">
-        <meta property="og:site_name" content="NavegarTI - Startups">
-        <meta property="og:description" content="Uma empresa jovem, com pegada de negócio, engajada, desenvolvendo soluções de forma criativa usando diferentes tecnologias.">
+        <meta property="og:title" content="SmartTech - Automação">
+        <meta property="og:site_name" content="SmartTech - Automação">
+        <meta property="og:description" content="Uma empresa criativa desenvolvendo soluções para seu dia-a-dia, com uma equipe de consultores, técnicos e engenheiros mais que capacitados, engajados.">
         <meta property="og:type" content="website">    
 
         <link rel="shortcut icon" href="favicon.ico" />
@@ -27,7 +27,9 @@
         <link rel="stylesheet" type="text/css" href="content/css/jquery.circliful.css">
         <link rel="stylesheet" type="text/css" href="content/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="content/css/style.min.css">
-        <link rel="stylesheet" type="text/css" href="content/css/responsive.min.css">
+        <link rel="stylesheet" type="text/css" href="content/css/responsive.min.css">+
+        <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->    
+         
     </head>
 
     <body class="animated fadeIn">
@@ -45,8 +47,8 @@
                       </button>
 
                         <a class="navbar-brand" href="#" title="NavegarTI - Startups">
-                            <img src="content/img/navegar.png" alt="" class="img-responsive pull-left">
-                            <img src="content/img/startups.png" alt="" class="navbar-brand__startups img-responsive pull-left">
+                            <img src="content/img/logobranco.png" alt="" class="img-responsive pull-left">
+                            <img src="content/img/automacao.png" alt="" class="navbar-brand__startups img-responsive pull-left">
                         </a>
                     </div>
 
@@ -64,8 +66,8 @@
                 </nav>
 
                 <div class="header__frase animated" style="display:none;">
-                    <h1>Mais que desenvolvimento de Startups.<br class="hidden-xs" />
-                    <strong>Uma parceria de Sucesso!</strong></h1>
+                    <h1>Mais que criação de soluções em automação.<br class="hidden-xs" />
+                    <strong>Facilitando seu dia a dia!</strong></h1>
                 </div>
             </div>
         </header>
@@ -79,10 +81,13 @@
 
                     <div class="col-xs-12 col-sm-5 col-md-6">
                         <div class="quem-somos__texto col-sm-12 col-md-10">
-                            <h1>Muito Prazer, nós somos a Navegar</h1>
-                            <p>Nós somos mais do que uma empresa de TI, somos o seu parceiro de negócios. Apoiamos e orientamos tecnologicamente nossos clientes na realização de suas ideias de negócio, desenvolvendo uma ampla variedade de soluções de forma criativa usando diferentes tecnologias com inovação e agilidade.</p>
+                            <h1>Muito Prazer, nós somos a Smart-Tech</h1>
+                            <p>Nós somos uma empresa de automação residencial, com sede em Campinas.
+                            Nossa equipe conta com consultores, técnicos e engenheiros capacitados para atender à demanda de
+                            mais alto nível.
+                            </p>
                             <br />
-                            <a href="http://www.navegarti.com.br" target="_blank" alt="NavegarTI" class="quem-somos__link-site">www.navegarti.com.br</a>
+<!--                             <a href="http://www.navegarti.com.br" target="_blank" alt="NavegarTI" class="quem-somos__link-site">www.navegarti.com.br</a> -->
                         </div>  
                     </div>                      
                 </div>  
@@ -92,11 +97,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h1 style="margin-bottom:0">Navegar em números</h1>
+                            <h1 style="margin-bottom:0">Smart-Tech em números</h1>
                         </div>
 
                         <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0 col-md-3">
-                            <div id="capitalMovimentado"></div>                           
+                            <div id="areaAutomatizada"></div>                           
                         </div>
 
                         <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0 col-md-3">
@@ -108,7 +113,7 @@
                         </div>
 
                         <div class="col-xs-8 col-xs-offset-2 col-sm-3 col-sm-offset-0 col-md-3">
-                            <div id="startupsAtendidas"></div>
+                            <div id="horasEconomizadas"></div>
                         </div>
                     </div>
                 </div>
@@ -119,47 +124,61 @@
                     <div class="row">
                             <div class="col-xs-12">
                                 <h1 style="margin-bottom:0;">O que fazemos</h1>
-                                <h2>Nossa especialidade é simplificar a tecnologia.</h2>
+                                <h2>Nossa especialidade é simplificar seu dia a dia.</h2>
                             </div>
 
-                            <div class="col-xs-12 col-sm-4">
-                                <article class="fazemos__box negocios animated">
+                            <div class="col-xs-12 col-sm-3">
+                                <article class="fazemos__box homeCinema animated">
                                     <div class="box__icone">
                                         <img src="content/img/ico-modelo-negocios.png" alt="Modelo de Negócios" class="">
                                     </div>
 
                                     <div class="box__texto">
-                                        <h3>Modelo de Negócios</h3>
-                                        <p>Da construção de uma landing page ao website do negócio. Atuamos na ideação, no desenvolvimento e no suporte para melhorar o seu site a cada dia. </p>
+                                        <h3>Home Cinema</h3>
+                                        <p>Imagem em alta definição e som multicanal de alta fidelidade capazars de proporcionar sensação de imersão na reprodução de videos. </p>
                                     </div>
                                 </article>
                             </div>  
 
-                            <div class="col-xs-12 col-sm-4">
-                                <article class="fazemos__box software animated" style="display:none;">
+                            <div class="col-xs-12 col-sm-3">
+                                <article class="fazemos__box homeTheater animated" style="display:none;">
                                     <div class="box__icone">
                                         <img src="content/img/ico-dev-software.png" alt="Desenvolvimento de Software" class="">
                                     </div>
 
                                     <div class="box__texto">
-                                        <h3>Desenvolvimento de Software</h3>
-                                        <p>De sistemas simples para gestão à sistemas voltados para a sua ideia, participamos de todo o processo de análise, desenvolvimento, validação e lançamento, além de realizar migrações e integrações.
+                                        <h3>Home Theater e Som Ambiente</h3>
+                                        <p>Nossas soluções em Home Theater oferecem uma grande gama de possibilidade, com a vantagem de oferecer sistemas que priorizem qualidade, custo e beneficio.
                                     </p></p>
                                 </article>
                             </div>  
 
-                            <div class="col-xs-12 col-sm-4">
-                                <article class="fazemos__box operacao animated" style="display:none;">
+                            <div class="col-xs-12 col-sm-3">
+                                <article class="fazemos__box projecao animated" style="display:none;">
                                     <div class="box__icone">
                                         <img src="content/img/ico-sustentacao.png" alt="Operação" class="">
                                     </div>
 
                                     <div class="box__texto">
-                                        <h3>Operação (Sustentação)</h3>
-                                        <p>Desenvolvemos aplicativos mobile para as suas ideias apoiando desde o planejamento, desenvolvimento, publicação nas lojas e suporte as melhorias.</p>
+                                        <h3>Sistema de Projeção</h3>
+                                        <p>Alta resolução e tamanhos proporcionais ao seu ambiente. Telas motorizadas de embutir em forro de gesso ou fixas, alta taxa de absorção de luz, adequados inclusive, para ambientes com claridade.</p>
                                     </div>
                                 </article>
                             </div>  
+
+                            <div class="col-xs-12 col-sm-3">
+                                <article class="fazemos__box MultiRoom animated" style="display:none;">
+                                    <div class="box__icone">
+                                        <img src="content/img/ico-sustentacao.png" alt="Operação" class="">
+                                    </div>
+
+                                    <div class="box__texto">
+                                        <h3>Som Ambiente MultiRoom</h3>
+                                        <p>Tenha som em diversos ambientes, com controle individual de volume e possibilidades de seleção de diversas fontes simultânea para os diferentes espaços.</p>
+                                    </div>
+                                </article>
+                            </div> 
+
                         </div> 
                     </div>                     
                 </div>  
@@ -181,7 +200,7 @@
 
                                     <div class="box__texto">
                                         <h3>Planejamento</h3>
-                                        <p>Entenderemos a sua necessidade e orientaremos tecnologicamente para atingimento dos seus objetivos com o apoio de profissionais de negócios, tecnologia e design.</p>
+                                        <p>Entenderemos a sua necessidade e orientaremos tecnologicamente para atingimento dos seus objetivos com o apoio de profissionais de arquitetura, engenharia e infraestrutura.</p>
                                     </div>
                                 </article>
                             </div>  
@@ -193,8 +212,8 @@
                                     </div>
 
                                     <div class="box__texto">
-                                        <h3>Design e UX</h3>
-                                        <p>Desenvolvemos desde a marca e o design, até a experiência de uso em cada uma das  plataformas para o lançamento da sua ideia.</p>
+                                        <h3>Design e Infraestrutura</h3>
+                                        <p>Desenvolvemos desde a infraestrura, até a experiência de uso em cada um comôdos, para o aumentar o coforto e comodidade.</p>
                                     </div>
                                 </article>
                             </div> 
@@ -202,12 +221,12 @@
                             <div class="col-sm-3">
                                 <article class="planejamos__box mvp animated" style="display:none;">
                                     <div class="box__icone">
-                                        <img src="content/img/ico-mvp.png" alt="MVP" class="">
+                                        <img src="content/img/ico-installing.png" alt="MVP" class="">
                                     </div>
 
                                     <div class="box__texto">
-                                        <h3>MVP</h3>
-                                        <p>Atendemos os prazos com qualidade para entregarmos um produto mínimo viável de forma ágil e assim podermos iniciar a validação da ideia no mercado.</p>
+                                        <h3>Instalação e configuração</h3>
+                                        <p>Realizamos a instalação com maestria e a configuração das cenas de acordo com as suas necessidades.</p>
                                     </div>
                                 </article>
                             </div>                            
@@ -215,19 +234,19 @@
                             <div class="col-sm-3">
                                 <article class="planejamos__box manutencao animated" style="display:none;">
                                     <div class="box__icone">
-                                        <img src="content/img/ico-manutencao.png" alt="Manutenção" class="">
+                                        <img src="content/img/ico-training.png" alt="Manutenção" class="">
                                     </div>
 
                                     <div class="box__texto">
-                                        <h3>Manutenção</h3>
-                                        <p>Acompanhamos o processo de validação dando todo o suporte para realizarmos melhorias na plataforma.</p>
+                                        <h3>Treinamento</h3>
+                                        <p>Ministramos treinamentos para que você consiga extrair ao máximo os beneficios da automação.</p>
                                     </div>
                                 </article>
                             </div>  
 
                             <div class="planejamos__observacao col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 animated" style="display:none;">
-                                <h4>Nosso método de trabalho é o seu método de trabalho!</h4>
-                                <h5>AGILE, LEAN ou SPRINTS. Possuímos equipes dinâmicas prontas realizar os projetos  com diferentes metodologias de trabalho.</h5>
+                                <h4>Nosso metodo de trabalho tem como foco a sua satisfação!</h4>
+                                <h5>Residêncial, Corporativa ou Industrial. Possuímos equipes dinâmicas prontas realizar os projetos  com diferentes contextos.</h5>
                             </div>
                         </div> 
                     </div>                     
@@ -247,87 +266,11 @@
                 <div class="projetos_slider">
                     <div class="container animated" style="opacity:0;">
                         <div class="row">
-                            <ul class="bxslider">
-                                <li>
-                                    <div class="col-sm-5 hidden-xs">
-                                        <img src="content/img/clientes/liga-pc.png" />
-                                    </div>
-
-                                    <div class="col-sm-6">
-                                        <img src="content/img/clientes/liga.jpg" class="logotipo" />
-                                        
-                                        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet, metus a mattis porta, lacus felis ultricies lorem, pharetra gravida metus mi ut ligula.</p>
-                                        
-                                        <p class="subtexto"><span class="font-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br /> Integer imperdiet, metus a mattis porta.</p>
-                                        
-                                        <a href="" class="url" target="_blank">www.construliga.com.br</a>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="col-sm-5 hidden-xs">
-                                        <img src="content/img/clientes/liga-pc.png" />
-                                    </div>
-
-                                    <div class="col-sm-6">
-                                        <img src="content/img/clientes/liga.jpg" class="logotipo" />
-                                        
-                                        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet, metus a mattis porta, lacus felis ultricies lorem, pharetra gravida metus mi ut ligula.</p>
-                                        
-                                        <p class="subtexto"><span class="font-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br /> Integer imperdiet, metus a mattis porta.</p>
-                                        
-                                        <a href="" class="url" target="_blank">www.construliga.com.br</a>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="col-sm-5 hidden-xs">
-                                        <img src="content/img/clientes/liga-pc.png" />
-                                    </div>
-
-                                    <div class="col-sm-6">
-                                        <img src="content/img/clientes/liga.jpg" class="logotipo" />
-                                        
-                                        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet, metus a mattis porta, lacus felis ultricies lorem, pharetra gravida metus mi ut ligula.</p>
-                                        
-                                        <p class="subtexto"><span class="font-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br /> Integer imperdiet, metus a mattis porta.</p>
-                                        
-                                        <a href="" class="url" target="_blank">www.construliga.com.br</a>
-                                    </div>
-                                </li> 
-
-                                <li>
-                                    <div class="col-sm-5 hidden-xs">
-                                        <img src="content/img/clientes/liga-pc.png" />
-                                    </div>
-
-                                    <div class="col-sm-6">
-                                        <img src="content/img/clientes/liga.jpg" class="logotipo" />
-                                        
-                                        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet, metus a mattis porta, lacus felis ultricies lorem, pharetra gravida metus mi ut ligula.</p>
-                                        
-                                        <p class="subtexto"><span class="font-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br /> Integer imperdiet, metus a mattis porta.</p>
-                                        
-                                        <a href="" class="url" target="_blank">www.construliga.com.br</a>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="col-sm-5 hidden-xs">
-                                        <img src="content/img/clientes/liga-pc.png" />
-                                    </div>
-
-                                    <div class="col-sm-6">
-                                        <img src="content/img/clientes/liga.jpg" class="logotipo" />
-                                        
-                                        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet, metus a mattis porta, lacus felis ultricies lorem, pharetra gravida metus mi ut ligula.</p>
-                                        
-                                        <p class="subtexto"><span class="font-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br /> Integer imperdiet, metus a mattis porta.</p>
-                                        
-                                        <a href="" class="url" target="_blank">www.construliga.com.br</a>
-                                    </div>
-                                </li> 
-                            </ul>
+                            <div class="fotorama" data-transition="crossfade" data-allowfullscreen="true">
+                                <img src="content/img/fundo-contato.jpg">
+                                <img src="content/img/banner.jpg">
+                                <img src="content/img/fundo-em-numeros.jpg">
+                            </div>                            
                         </div>
                     </div>
                 </div>                  
@@ -364,7 +307,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h1>Fale conosco! Teremos prazer em encarar um desafio com você.</h1>
+                            <h1>Fale conosco! Teremos prazer em criar um projeto com você.</h1>
                             <h2>Ligue, mande um email ou venha aqui tomar um café com a gente!</h2>
                         </div>
 
@@ -375,7 +318,7 @@
                               </div>
 
                               <div class="media-body contato__texto">
-                                (19) 3014-0706
+                                (19) 98357-2846
                               </div>
                             </div>
 
@@ -385,7 +328,7 @@
                               </div>
 
                               <div class="media-body contato__texto">
-                                contato@navegarti.com.br
+                                uilton.souza@gmail.com
                               </div>
                             </div>
 
@@ -395,7 +338,7 @@
                               </div>
 
                               <div class="media-body contato__texto">
-                                facebook.com/navegarti
+                                facebook.com/smarttechcps
                               </div>
                             </div>  
                             
@@ -405,10 +348,10 @@
                               </div>
 
                               <div class="media-body contato__texto">
-                                Rua Sampaio Peixoto, 252<br />
-                                Cambuí - CEP 13024-420<br />
+                                Av. da Saudade, 493<br />
+                                Ponte Preta - CEP 13041-670<br />
                                 Campinas - SP<br />
-                                <a href="https://www.google.com/maps?ll=-22.889437,-47.05223&z=19&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=5495001222522704462" target="_blank">ver mapa</a>
+                                <a href="https://www.google.com.br/maps/place/Av.+da+Saudade,+493+-+Pte.+Preta,+Campinas+-+SP,+13041-670/@-22.9181161,-47.0547408,15z/data=!4m13!1m7!3m6!1s0x94c8cf2d934d7547:0xf39dfa64422c96de!2sAv.+da+Saudade,+493+-+Pte.+Preta,+Campinas+-+SP,+13041-670!3b1!8m2!3d-22.9180529!4d-47.0544913!3m4!1s0x94c8cf2d934d7547:0xf39dfa64422c96de!8m2!3d-22.9180529!4d-47.0544913" target="_blank">ver mapa</a>
                               </div>
                             </div>                             
                         </div>
@@ -427,10 +370,10 @@
                               </div>
 
                               <div class="form-group">
-                                <textarea class="form-control" rows="3" placeholder="Mensagem" required></textarea>
+                                <textarea class="form-control" id="mensagem" rows="3" placeholder="Mensagem" required></textarea>
                               </div>
 
-                              <button type="submit" id="enviar-mensagem" class="btn btn-default">Enviar Mensagem</button>
+                              <button type="submit" id="enviar-mensagem" class="btn btn-default" onclick="sendEmail()">Enviar Mensagem</button>
                             </form>
                         </div>                        
                     </div>
@@ -443,12 +386,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="footer__copyright col-xs-4 col-sm-6">
-                            <img src="content/img/navegar.png" alt="NavegarTI" />
+                            <img src="content/img/logobranco.png" alt="NavegarTI" />
                         </div>
 
                         <div class="footer__links col-xs-8 col-sm-6">
-                            <a href="http://www.navegarti.com.br" alt="NavegarTI" target="_blank">Institucional</a>
-                            <a href="#" alt="">Facebook</a>
+                            <!-- <a href="http://www.navegarti.com.br" alt="NavegarTI" target="_blank">Institucional</a> -->
+                            <a href="https://www.facebook.com/smarttechcps/" alt="" target="_blank">Facebook</a>
                         </div>                        
                     </div>
                 </div>
@@ -456,10 +399,32 @@
         </footer>
 
         <script src="content/js/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
         <script src="content/js/jquery.bxslider/jquery.bxslider.min.js"></script>
         <script src="content/js/jquery.onscreen.min.js"></script>
         <script src="content/js/jquery.circliful.min.js"></script>
         <script src="content/js/bootstrap.min.js"></script>        
         <script src="content/js/app.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+           (function(){
+              emailjs.init("user_hgbPjE65g0XY86AeCDWve");
+           })();
+           function sendEmail(){
+            // parameters: service_id, template_id, template_parameters
+            var email = document.getElementById("email").value;
+            var nome = document.getElementById("nome").value;
+            var mensagem = document.getElementById("mensagem").value;
+            emailjs.send("smarttech","email_template_smart_tech",{from_name: email, email: nome, message_html: mensagem});
+            
+            //TO-DO: Corrigir ancora depois que envia o email e limpar o form de contato.
+            document.getElementById("email").placeholder  = "Email@email.com";
+            document.getElementById("nome").placeholder  = "Nome Completo";
+            document.getElementById("mensagem").placeholder  = "Mensagem";
+           };
+           
+        </script>
+
     </body>
 </html>

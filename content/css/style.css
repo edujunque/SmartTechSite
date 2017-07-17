@@ -264,7 +264,7 @@ h6 { color: #fff; font-weight: 900; }
 
 /*quem somos*/
 .section__quem-somos {
-    background: url("../img/fundo-foguete.jpg") no-repeat -200% 727px;
+    background: url("../img/gears.png") no-repeat -200% 727px;
     /*height: 727px;*/
 
     -webkit-transition: all ease 1s;
@@ -306,7 +306,7 @@ h6 { color: #fff; font-weight: 900; }
 
 /*em numero*/
 .section__numeros {
-    background: url("../img/fundo-em-numeros__big.jpg") no-repeat center / cover;
+    background: url("../img/smartTechNumerosBanner.jpg") no-repeat center / cover;
     background-attachment: fixed;
     min-height: 435px;
     text-align: center;
@@ -343,9 +343,10 @@ h6 { color: #fff; font-weight: 900; }
         padding: 30px 40px;
     }
 
-    .fazemos__box.negocios { background: url("../img/bg-modelo-negocios.png") no-repeat center; }
-    .fazemos__box.software { background: url("../img/bg-dev-software.png") no-repeat center; }
-    .fazemos__box.operacao { background: url("../img/bg-sustentacao.png") no-repeat center; }
+    .fazemos__box.homeCinema { background: url("../img/bg-modelo-negocios.png") no-repeat center; }
+    .fazemos__box.homeTheater { background: url("../img/bg-dev-software.png") no-repeat center; }
+    .fazemos__box.projecao { background: url("../img/bg-sustentacao.png") no-repeat center; }
+    .fazemos__box.MultiRoom { background: url("../img/bg-sustentacao.png") no-repeat center; }
 
         .fazemos__box .box__icone {
             text-align: center;
@@ -406,6 +407,7 @@ h6 { color: #fff; font-weight: 900; }
         } 
 
 /*projetos desenvolvidos*/
+.galleria{ max-width: 700px; height: 400px; background: #000 }
 .section__projetos {
     color: #7d7d7d;
     padding-top: 70px;
