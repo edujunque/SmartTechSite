@@ -1,4 +1,4 @@
 codigofontestartups
 
-##Link homologação:
-#https://edujunque.github.io/SmartTechSite/
+## Link homologação:
+### https://edujunque.github.io/SmartTechSite/
