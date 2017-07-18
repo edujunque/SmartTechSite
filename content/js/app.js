@@ -169,7 +169,7 @@ $(document).ready(function () {
       textBelow: true,
       textColor: '#FFF',
       textStyle: 'font-size: 12px; font-weight: bold;',
-      replacePercentageByText: '20.000m²',
+      replacePercentageByText: '10.000m²',
       noPercentageSign: true,      
       fontColor: '#fff',      
       animateInView: true,
@@ -196,12 +196,12 @@ $(document).ready(function () {
       foregroundColor: '#c1c0c1',
       foregroundBorderWidth: '10',
       backgroundColor: '#696969', 
-      backgroundBorderWidth: '10',      
+      backgroundBorderWidth: '10',     
       text: 'USUARIOS IMPACTADOS',            
       textBelow: true,
       textColor: '#FFF',
       textStyle: 'font-size: 12px; font-weight: bold;',
-      replacePercentageByText: '9.530',
+      replacePercentageByText: '206',
       noPercentageSign: true,      
       fontColor: '#fff',
       animateInView: true,
@@ -227,10 +227,11 @@ $(document).ready(function () {
     //init bx slider slider    
     //if (w < 991) {
       $('.bxslider').bxSlider({
-        //auto: true,
-        //infiniteLoop: false,
-        //adaptiveHeight: true,
-        //pager: false
+        minSlides: 1,
+        maxSlides: 3,
+        slideWidth: 360,
+        slideMargin: 10,
+        auto: true
       });
     //}  
 

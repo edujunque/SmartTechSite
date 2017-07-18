@@ -148,7 +148,7 @@ h6 { color: #fff; font-weight: 900; }
 .nav.navbar-nav > li > a {
     color: #fff;
 
-    background: linear-gradient(to right, rgba(51,178,204, .90) 50%, transparent 50%);
+    background: linear-gradient(to right, rgba(5,5,75, .90) 50%, transparent 50%);
     background-size: 217% 100%;
     background-position:right bottom;
 }
@@ -233,7 +233,8 @@ h6 { color: #fff; font-weight: 900; }
 }
 
     .navbar-brand__startups {
-        margin-left: 15px;
+        margin-top: 37px;
+        margin-left: -5px;
     }
 
     .header__frase {
@@ -243,7 +244,7 @@ h6 { color: #fff; font-weight: 900; }
         left: 50px;
 
         background-color: #33b2cc;
-        background-color: rgba(51,178,204, 0.9);
+        background-color: rgba(5,5,75, 0.7);
 
         padding: 35px;
     }
@@ -322,7 +323,7 @@ h6 { color: #fff; font-weight: 900; }
 }
 
     .section__fazemos h1 {
-        color: #33b2cc;
+        color: #05054B;
         text-align: center;        
     }
 
