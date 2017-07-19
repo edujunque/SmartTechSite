@@ -165,11 +165,11 @@ $(document).ready(function () {
       foregroundBorderWidth: '10',
       backgroundColor: '#696969', 
       backgroundBorderWidth: '10',   
-      text: 'ÁREA EM M² de<tspan y="205" x="97">RESIDÊNCIAS AUTOMATIZADAS</tspan>',
+      text: '&#193;REA EM M&#178; de<tspan y="205" x="97">RESID&#202;NCIAS AUTOMATIZADAS</tspan>',
       textBelow: true,
       textColor: '#FFF',
       textStyle: 'font-size: 12px; font-weight: bold;',
-      replacePercentageByText: '10.000m²',
+      replacePercentageByText: '10.000m&#178;',
       noPercentageSign: true,      
       fontColor: '#fff',      
       animateInView: true,
@@ -254,7 +254,7 @@ $(document).ready(function () {
         });
      if(cont == 0)
          {
-            $("#contato").submit();
+            // $("#contato").submit();
          }
     });       
 });

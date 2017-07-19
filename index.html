@@ -182,8 +182,8 @@
                                     </div>
 
                                     <div class="box__texto">
-                                        <h3>Som Ambiente MultiRoom</h3>
-                                        <p>Tenha som em diversos ambientes, com controle individual de volume e possibilidades de seleção de diversas fontes simultânea para os diferentes espaços.</p>
+                                        <h3>Iluminação</h3>
+                                        <p>A iluminação automatizada pode ser controlada diretamente por interruptores ou através de Smartphones, Ipads, Iphones, etc.</p>
                                     </div>
                                 </article>
 							  </li>
@@ -194,8 +194,8 @@
                                     </div>
 
                                     <div class="box__texto">
-                                        <h3>Som Ambiente MultiRoom</h3>
-                                        <p>Tenha som em diversos ambientes, com controle individual de volume e possibilidades de seleção de diversas fontes simultânea para os diferentes espaços.</p>
+                                        <h3>Segurança</h3>
+                                        <p>Preocupados também com segurança, oferecemos soluções especiais de controle de acesso, seja ele por biometrica(digital), senha ou cartão, contamos também com o sistema de câmeras, que podem, além de armazenar a imagem gravada, pode ser acessada via Tablet e Smartphone de qualquer lugar do mundo.</p>
                                     </div>
                                 </article>
 							  </li>
@@ -206,8 +206,8 @@
                                     </div>
 
                                     <div class="box__texto">
-                                        <h3>Som Ambiente MultiRoom</h3>
-                                        <p>Tenha som em diversos ambientes, com controle individual de volume e possibilidades de seleção de diversas fontes simultânea para os diferentes espaços.</p>
+                                        <h3>Automação de persianas</h3>
+                                        <p>Através de automação integrada, você poderá acionar do seu Tablet, Smartphone ou interruptores de parede automatizados todas as cortinas e persianas com apenas um toque.</p>
                                     </div>
                                 </article>
 							  </li>
@@ -218,11 +218,35 @@
                                     </div>
 
                                     <div class="box__texto">
-                                        <h3>Som Ambiente MultiRoom</h3>
-                                        <p>Tenha som em diversos ambientes, com controle individual de volume e possibilidades de seleção de diversas fontes simultânea para os diferentes espaços.</p>
+                                        <h3>Automação de ar condicionado</h3>
+                                        <p>As soluções em automação de ar condicionado pode ser facilmente controlado pelo seu Tablet ou Smartphone permitindo que você escolha a temperatura do ambiente, podendo controlar mais de um aparelho com apenas um clique</p>
                                     </div>
                                 </article>
 							  </li>
+							  <li>
+                                <article class="fazemos__box MultiRoom" style="display:none;">
+                                    <div class="box__icone">
+                                        <img src="content/img/ico-sustentacao.png" alt="Operação" class="">
+                                    </div>
+
+                                    <div class="box__texto">
+                                        <h3>Consultoria em Infraestrutura de Redes</h3>
+                                        <p>Conheça nossos serviços em infraestrutura  de TI, cabeamento estruturado, projetos, servidores, Suporte Técnico e muito mais.</p>
+                                    </div>
+                                </article>
+							  </li>	
+  							  <li>
+                                <article class="fazemos__box MultiRoom" style="display:none;">
+                                    <div class="box__icone">
+                                        <img src="content/img/ico-sustentacao.png" alt="Operação" class="">
+                                    </div>
+
+                                    <div class="box__texto">
+                                        <h3>Telefonia e Interfonia</h3>
+                                        <p>Implantação e manutenção de cabos ópticos ou metálicos, dimensionamento de projeto, configuração de equipamentos (Centrais de interfonia e PABX), conectorização e testes.</p>
+                                    </div>
+                                </article>
+							  </li>							  
 							</ul>
 <!--                             <div class="col-xs-12 col-sm-3">
                                 <article class="fazemos__box homeCinema animated">
@@ -509,26 +533,33 @@
         <script src="content/js/jquery.circliful.min.js"></script>
         <script src="content/js/bootstrap.min.js"></script>        
         <script src="content/js/app.min.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_hgbPjE65g0XY86AeCDWve");
+   })();
+	function sendEmail(){
+		alert('aqui')
 
-        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-        <script type="text/javascript">
-           (function(){
-              emailjs.init("user_hgbPjE65g0XY86AeCDWve");
-           })();
-           function sendEmail(){
-            // parameters: service_id, template_id, template_parameters
-            var email = document.getElementById("email").value;
-            var nome = document.getElementById("nome").value;
-            var mensagem = document.getElementById("mensagem").value;
-            emailjs.send("smarttech","email_template_smart_tech",{from_name: email, email: nome, message_html: mensagem});
-            
-            //TO-DO: Corrigir ancora depois que envia o email e limpar o form de contato.
-            document.getElementById("email").placeholder  = "Email@email.com";
-            document.getElementById("nome").placeholder  = "Nome Completo";
-            document.getElementById("mensagem").placeholder  = "Mensagem";
-           };
-           
-        </script>
-
+	    // parameters: service_id, template_id, template_parameters
+	    // var email = document.getElementById("email").value;
+	    // var nome = document.getElementById("nome").value;
+	    // var mensagem = document.getElementById("mensagem").value;
+	    // emailjs.send("smarttech","email_template_smart_tech",{from_name: email, email: nome, message_html: mensagem});
+	    // console.log('antes');
+	    // emailjs.send("smarttech","email_template_smart_tech",{from_name: "email", email: "nome", message_html: "mensagem"});
+	    // console.log('depois');
+emailjs.send("smarttech","email_template_smart_tech",{from_name: "email", email: "nome", message_html: "mensagem"})
+.then(function(response) {
+   console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+}, function(err) {
+   console.log("FAILED. error=", err);
+});
+	    //TO-DO: Corrigir ancora depois que envia o email e limpar o form de contato.
+	    // document.getElementById("email").placeholder  = "Email@email.com";
+	    // document.getElementById("nome").placeholder  = "Nome Completo";
+	    // document.getElementById("mensagem").placeholder  = "Mensagem";
+   };
+</script>
     </body>
 </html>
