@@ -169,7 +169,7 @@ $(document).ready(function () {
       textBelow: true,
       textColor: '#FFF',
       textStyle: 'font-size: 12px; font-weight: bold;',
-      replacePercentageByText: '10.000m&#178;',
+      replacePercentageByText: '10.000',
       noPercentageSign: true,      
       fontColor: '#fff',      
       animateInView: true,

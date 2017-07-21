@@ -517,6 +517,12 @@ h6 { color: #fff; font-weight: 900; }
     padding-bottom: 70px;
 }
 
+    .section__parceiros__div_logos {
+        display: flex; 
+        align-items: center; 
+        width: 100%;
+    }
+
     .section__parceiros h1 {
         color: #7d7d7d;
         text-align: center;        
@@ -614,16 +620,21 @@ h6 { color: #fff; font-weight: 900; }
     }
 
     .footer__links {
-        text-align: right;
-        margin-top: 15px;
+/*        text-align: right;
+        margin-top: 15px;*/
+        padding-left: 50px;
     }
 
-        .footer__links a {            
+/*        .footer__links a {            
             margin-right: 50px;
-        }
+        }*/
 
     .footer__copyright {
-        text-align: left;
+        padding-left: 50px;
+    }
+    .footer__social_icons {
+        width: 56px;
+        margin-left: 10px;
     }
 
 
