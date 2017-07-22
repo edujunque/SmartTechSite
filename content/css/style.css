@@ -628,7 +628,10 @@ h6 { color: #fff; font-weight: 900; }
 /*        .footer__links a {            
             margin-right: 50px;
         }*/
-
+    .footer__row{
+        display: flex;
+        align-items: flex-end;
+    }
     .footer__copyright {
         padding-left: 50px;
     }
