@@ -343,11 +343,17 @@ h6 { color: #fff; font-weight: 900; }
         height: 482px;
         padding: 30px 40px;
     }
-
-    .fazemos__box.homeCinema { background: url("../img/bg-modelo-negocios.png") no-repeat center; }
-    .fazemos__box.homeTheater { background: url("../img/bg-dev-software.png") no-repeat center; }
-    .fazemos__box.projecao { background: url("../img/bg-sustentacao.png") no-repeat center; }
-    .fazemos__box.MultiRoom { background: url("../img/bg-sustentacao.png") no-repeat center; }
+ 
+    .fazemos__box.homeCinema { background: url("../img/bg-home-cinema.png") no-repeat center; }
+    .fazemos__box.homeTheater { background: url("../img/bg-home-theater.png") no-repeat center; }
+    .fazemos__box.interfone { background: url("../img/bg-interfone.png") no-repeat center; }
+    .fazemos__box.projecao { background: url("../img/bg-projecao.png") no-repeat center; }
+    .fazemos__box.MultiRoom { background: url("../img/bg-multiroom.png") no-repeat center; }
+    .fazemos__box.lights { background: url("../img/bg-home-lights.png") no-repeat center; }
+    .fazemos__box.security { background: url("../img/bg-security.png") no-repeat center; }
+    .fazemos__box.persianas { background: url("../img/bg-persianas.png") no-repeat center; }
+    .fazemos__box.arcondicionado { background: url("../img/bg-arcondicionado.png") no-repeat center; }
+    .fazemos__box.redes { background: url("../img/bg-redes.png") no-repeat center; }
 
         .fazemos__box .box__icone {
             text-align: center;
@@ -663,7 +669,7 @@ h6 { color: #fff; font-weight: 900; }
 .Erro404 {
     margin: 10% auto 0px;
 }
-
+ 
 
 
 /*------------------------------------*\

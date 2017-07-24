@@ -78,10 +78,28 @@ $(document).ready(function () {
         });        
 
         $('.homeTheater').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $('.interfone').show().addClass('fadeInLeft');
+        });
+        $('.interfone').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $('.projecao').show().addClass('fadeInLeft');
         });
         $('.projecao').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $('.MultiRoom').show().addClass('fadeInLeft');
+        });
+        $('.MultiRoom').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $('.lights').show().addClass('fadeInLeft');
+        });
+        $('.lights').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $('.security').show().addClass('fadeInLeft');
+        }); 
+        $('.security').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $('.persianas').show().addClass('fadeInLeft');
+        });
+        $('.persianas').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $('.arcondicionado').show().addClass('fadeInLeft');
+        });        
+        $('.arcondicionado').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $('.redes').show().addClass('fadeInLeft');
         });
       },
       doOut: function() {
