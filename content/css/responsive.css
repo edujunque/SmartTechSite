@@ -14,7 +14,13 @@
 /**
  * Ajustes extra para responsividade do site
  */
-
+ @media (min-width: 768px) {  
+   .parceiros__row {
+        display: flex;
+        align-items: center;
+    }
+ }
+ 
 /*troca breakpoint do menu collpase do bootstrap*/
 @media (max-width: 1024px) {    
     .navbar {
@@ -334,7 +340,6 @@
     .section__parceiros {
         padding-top: 40px;
     }
-
         .section__parceiros h1 {
             font-size: 30px;
         }
@@ -342,7 +347,6 @@
         .parceiros__logos {
             margin-bottom: 25px;
         }
-
     /*contato*/
     .section__contato {
         padding-top: 70px;
